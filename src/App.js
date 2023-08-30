@@ -15,12 +15,12 @@ import Contact from "./pages/Contact";
   const [bg, setbg] = useState("white");
   const [curr , setcurr] =  useState('enable');
 
-   function changecolor(){
-    if(bg == 'pink') setbg("white");
-    else setbg("pink")
-     if(curr == "enable") setcurr("disable")
-    else setcurr("enable")
-  }
+  //  function changecolor(){
+  //   if(bg == 'pink') setbg("white");
+  //   else setbg("pink")
+  //    if(curr == "enable") setcurr("disable")
+  //   else setcurr("enable")
+  //   }
  
 
   return (
